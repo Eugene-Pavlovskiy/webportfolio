@@ -44,6 +44,31 @@ section.section:nth-child(2n){
   max-width: 1200px;
   padding: 30px;
 }
+.grid{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0 auto 30px;
+}
+.column2{
+  position: relative;
+  display: block;
+}
+.column2 img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.column2 h2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  color: var(--white);
+  background-color: rgba(255, 255, 255, 0.2);
+}
 
 .navbar{
   min-height: 80px;
