@@ -5,7 +5,7 @@
     --red: #c91111;
     --black: #36383F;
     --gray: #85888C;
-    --blue: #024f9c;
+    --green: #74b30f;
     --violet: #2f4288;
     --mainfont: Poppins;
 } /* variables*/
@@ -35,10 +35,8 @@ a{
 
 section{
   justify-content: center;
+  max-width: 1600px;
 }
-/* section.section:nth-child(2n){
-  background-color: var(--gray);
-} */
 
 .container{
   max-width: 1600px;
@@ -76,7 +74,7 @@ section{
 .grid3{
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   max-width: 1600px;
   padding: 30px;
   margin: 0 auto 30px;
@@ -104,7 +102,7 @@ section{
 .grid4{
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   max-width: 1600px;
   padding: 30px;
   margin: 0 auto 30px;
@@ -170,7 +168,7 @@ label.logo{
 }
 
 .nav-link.active,.nav-link:hover{
-  background: var(--blue);
+  background: var(--green);
   transition: .5s;
 }
 
@@ -184,27 +182,27 @@ label.logo{
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  background-color: var(--blue);
+  background-color: var(--green);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .hero{
   width: 100%;
-  height: 768px;
+  height: 450px;
   margin: 0;
   background-color: var(--gray);
-  background-image: url(./img/bmwM4.webp);
+  background-image: url(./img/web.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   background-attachment: fixed;
   background-size: cover;
 }
 .hero h1{
   position: absolute;
-  top: 75%;
+  top: 20%;
   left: 40%;
-  color: var(--white);
+  color: var(--green);
   font-size: 48px;
   align-items: center;
   text-align: center;
@@ -286,7 +284,7 @@ label.logo{
     width: 100%;
     height: 425px;
     margin: 0;
-    background-image: url(./img/bmwM4.webp);
+    background-image: url(./img/web.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
@@ -310,7 +308,7 @@ label.logo{
     width: 100%;
     height: 280px;
     margin: 0;
-    background-image: url(./img/bmwM4.webp);
+    background-image: url(./img/web.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
@@ -332,7 +330,7 @@ label.logo{
     width: 100%;
     height: 180px;
     margin: 0;
-    background-image: url(./img/bmwM4.webp);
+    background-image: url(./img/web2.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
