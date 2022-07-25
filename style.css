@@ -36,19 +36,22 @@ a{
 section{
   justify-content: center;
 }
-section.section:nth-child(2n){
+/* section.section:nth-child(2n){
   background-color: var(--gray);
-}
+} */
 
 .container{
-  max-width: 1200px;
+  max-width: 1600px;
   padding: 30px;
+}
+.text{
+  text-align: center;
 }
 .grid{
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-  max-width: 1200px;
+  max-width: 1600px;
   padding: 30px;
   margin: 0 auto 30px;
 }
@@ -57,11 +60,66 @@ section.section:nth-child(2n){
   display: block;
 }
 .column2 img {
-  height: 200px;
+  height: 300px;
   width: 100%;
   object-fit: cover;
 }
 .column2 h2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  color: var(--white);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.grid3{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  max-width: 1600px;
+  padding: 30px;
+  margin: 0 auto 30px;
+}
+.column3{
+  position: relative;
+  display: block;
+}
+
+.column3 img {
+  height: 200px;
+  width: 100%;
+  border: rgba(255, 255, 255, 0.5);
+  object-fit: cover;
+}
+.column3 h2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  color: var(--white);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.grid4{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  max-width: 1600px;
+  padding: 30px;
+  margin: 0 auto 30px;
+}
+.column4{
+  position: relative;
+  display: block;
+}
+
+.column4 img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.column4 h2 {
   position: absolute;
   bottom: 0;
   width: 100%;
