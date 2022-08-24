@@ -146,7 +146,7 @@ label.logo{
   width: 380px;
   height: 500px;
   border-radius: 7px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .swiper-slide-active{
   transform: scale(1.15);
