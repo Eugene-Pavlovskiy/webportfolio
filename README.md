@@ -1,2 +1,2 @@
-#As variants of Portfolio
-##Vanila JS
+# As variants of Portfolio
+## Vanila JS
